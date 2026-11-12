@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Spotify Quiet for the desktop app.
+// Spotify Quiet for the desktop app, for Windows and Linux (macOS has its own
+// app, built from desktop/mac).
 //
 // Opens Spotify with a local DevTools port and loads quiet.js into its UI.
 // Nothing inside Spotify.app is changed: quit Spotify and open it the normal

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Spotify Quiet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spotify ad blocker. Simple on/off switch.",
   "minimum_chrome_version": "111",
   "permissions": ["storage", "scripting", "declarativeNetRequest"],

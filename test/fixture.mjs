@@ -3,7 +3,7 @@
 import assert from 'node:assert/strict';
 import { CDP, PORT, extensionId } from './cdp.mjs';
 
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 const SECRET = 'SECRET-TOKEN-abcdef0123456789';
 
 // A silent WAV of the given length, to stand in for real audio files.

@@ -1,5 +1,5 @@
-// Spotify Quiet for the desktop app. launch.mjs loads this into the app's own
-// UI page; nothing inside Spotify.app is changed.
+// Spotify Quiet for the desktop app. The launcher (the Mac app, or launch.mjs)
+// loads this into the app's own UI page; nothing inside Spotify.app is changed.
 //
 // The desktop app plays ads from its native core, which the UI steers through
 // a set of internal services: ad slots (stream, podcast, home page promo and so
@@ -19,7 +19,7 @@
   if (window.__spQuiet) return;
 
   const state = {
-    version: '0.1.0',
+    version: '0.1.1',
     where: 'desktop',
     ready: false,
     passes: 0,

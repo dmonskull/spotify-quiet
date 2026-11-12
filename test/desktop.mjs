@@ -113,7 +113,7 @@ let available = false;
 const { window, styles } = makeWindow({ ready: () => available });
 vm.runInNewContext(source, window);
 const state = window.__spQuiet;
-assert.equal(state.version, '0.1.0');
+assert.equal(state.version, '0.1.1');
 assert.equal(state.ready, false);
 await pause(700);
 assert.equal(state.ready, false, 'must wait while the app has not loaded its services');

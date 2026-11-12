@@ -14,7 +14,7 @@
   'use strict';
   if (window.__spQuiet) return;
 
-  const state = { version: '0.1.0', ads: 0, sped: 0 };
+  const state = { version: '0.1.1', ads: 0, sped: 0 };
   Object.defineProperty(window, '__spQuiet', { value: state });
 
   const native = {
