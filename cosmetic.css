@@ -1,0 +1,13 @@
+/* Sponsored cards, banners and takeover slots in the web player. Audio ads
+   are handled by rules.json and engine.js. */
+[data-testid="home-ads-container"],
+[data-testid="home-ad-card"],
+.main-leaderboardComponent-container,
+#leaderboard-ad-element,
+#view-billboard-ad,
+[data-testid="billboard-minimized"],
+[data-testid="billboard-image-link"],
+[data-testid*="hpto"],
+.sponsor-container {
+  display: none !important;
+}
